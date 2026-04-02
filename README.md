@@ -3,6 +3,23 @@
 Projeto desenvolvido como solução para o desafio técnico da LogAP, com foco no gerenciamento de veículos, viagens e análise de dados via dashboard.
 
 ---
+## 🗄️ Banco de Dados
+
+O script de carga inicial está disponível em:
+
+sql/carga_inicial.sql
+
+### Como executar:
+
+1. Criar o banco no PostgreSQL:
+   CREATE DATABASE logitrack;
+
+2. Abrir o DBeaver
+
+3. Executar o script:
+   sql/carga_inicial.sql
+
+4. Rodar o backend normalmente
 
 ## 🚀 Tecnologias utilizadas
 
