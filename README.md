@@ -109,6 +109,17 @@ O projeto utiliza o banco de dados fornecido no desafio e implementa consultas S
 ### Dashboard
 ![Print do dashboard](prints/print-dashboard.png)
 
+## Frontend
+
+O frontend em React está na pasta `logitrack-front`.
+
+Para executar:
+
+```bash
+cd logitrack-front
+npm install
+npm start
+
 ## 👩‍💻 Desenvolvido por
 
 Alice Soares
