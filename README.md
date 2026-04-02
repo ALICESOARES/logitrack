@@ -1,0 +1,104 @@
+# LogiTrack Pro 🚛
+
+Projeto desenvolvido como solução para o desafio técnico da LogAP, com foco no gerenciamento de veículos, viagens e análise de dados via dashboard.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- Java 17
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- PostgreSQL
+- Maven
+
+---
+
+## 📦 Funcionalidades
+
+### 🚗 CRUD de Veículos
+- Listar veículos
+- Cadastrar veículo
+- Atualizar veículo
+- Remover veículo
+
+### 🛣️ CRUD de Viagens
+- Listar viagens
+- Cadastrar viagem
+- Atualizar viagem
+- Remover viagem
+
+### 📊 Dashboard Analítico
+- Total de KM percorrido
+- Volume de viagens por categoria (Leve / Pesado)
+- Ranking de veículos por utilização
+- Próximas manutenções
+- Projeção financeira de manutenção
+
+---
+
+## ⚙️ Configuração do Banco de Dados
+
+No arquivo `application.properties`:
+
+spring.application.name=logitrack
+spring.datasource.url=jdbc:postgresql://localhost:5432/logitrack
+spring.datasource.username=postgres
+spring.datasource.password=1234
+
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=true
+
+---
+
+## ▶️ Como executar o projeto
+
+git clone https://github.com/ALICESOARES/logitrack.git
+cd logitrack/logitrack
+.\mvnw spring-boot:run
+
+---
+
+## 🌐 Endpoints da API
+
+### Veículos
+- GET /veiculos
+- POST /veiculos
+- PUT /veiculos/{id}
+- DELETE /veiculos/{id}
+
+### Viagens
+- GET /viagens
+- POST /viagens
+- PUT /viagens/{id}
+- DELETE /viagens/{id}
+
+### Dashboard
+- GET /dashboard
+- GET /dashboard/total-km
+- GET /dashboard/volume-por-categoria
+- GET /dashboard/ranking-utilizacao
+- GET /dashboard/proximas-manutencoes
+- GET /dashboard/projecao-financeira
+
+---
+
+## 🧱 Estrutura do projeto
+
+controller  → endpoints da API  
+service     → regras de negócio  
+repository  → acesso ao banco  
+model       → entidades do sistema  
+
+---
+
+## 📌 Observações
+
+O projeto utiliza o banco de dados fornecido no desafio e implementa consultas SQL para alimentar o dashboard, conforme solicitado.
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+Alice Soares
