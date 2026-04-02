@@ -98,6 +98,16 @@ model       → entidades do sistema
 O projeto utiliza o banco de dados fornecido no desafio e implementa consultas SQL para alimentar o dashboard, conforme solicitado.
 
 ---
+## Prints das funcionalidades
+
+### Veículos
+![Print de veículos](prints/print-veiculos.png)
+
+### Viagens
+![Print de viagens](prints/print-viagens.png)
+
+### Dashboard
+![Print do dashboard](prints/print-dashboard.png)
 
 ## 👩‍💻 Desenvolvido por
 
