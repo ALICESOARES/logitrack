@@ -7,7 +7,7 @@ Projeto desenvolvido como solução para o desafio técnico da LogAP, com foco n
 
 O script de carga inicial está disponível em:
 
-sql/carga_inicial.sql
+Database
 
 ### Como executar:
 
@@ -17,7 +17,7 @@ sql/carga_inicial.sql
 2. Abrir o DBeaver
 
 3. Executar o script:
-   sql/carga_inicial.sql
+  Desafio LogAp TRE - Carga Inicial (1).sql 
 
 4. Rodar o backend normalmente
 
@@ -118,13 +118,12 @@ O projeto utiliza o banco de dados fornecido no desafio e implementa consultas S
 ## Prints das funcionalidades
 
 ### Veículos
-![Print de veículos](prints/print-veiculos.png)
-
+Disponivel em Prints
 ### Viagens
-![Print de viagens](prints/print-viagens.png)
+Disponivel em Prints
 
 ### Dashboard
-![Print do dashboard](prints/print-dashboard.png)
+Disponivel em Prints
 
 ## Frontend
 
